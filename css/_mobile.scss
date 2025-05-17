@@ -1,0 +1,233 @@
+@media (max-width: 768px) {
+    .html {
+        font-size: 16px;
+    }
+
+    .center {
+        padding-left: calc((100vw - 343px)/2);
+        padding-right: calc((100vw - 343px)/2);
+    }
+
+    .logo {
+        &__img{
+            height: 22px;
+        }
+    }
+
+    .header {
+        border: none;
+        padding-top: 48px;
+        padding-bottom: 16px;        
+        
+        &__input {
+            display: none;
+        }
+    }
+
+    .menu-mob {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        &__item {
+            width: 20px;
+            height: 20px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            &_input {
+                background-image: url("../img/icon_search.svg");
+            }
+        
+            &_catalog {
+                background-image: url("../img/icon_catalog.svg");
+            }
+        
+            &_cart {
+                background-image: url("../img/icon_cart.svg");
+            }
+        }
+    }
+
+    .menu {
+        display: none;
+    }
+
+    h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .top {
+        margin-bottom: 36px;
+
+        &-catalog {
+            background-position: 28%;
+        }
+
+        &-cart {
+            background-position: 70%;
+        }
+
+        &__text {
+            text-align: center;
+            font-size: 16px;
+        }
+    
+        &__link {
+            font-size: 14px;
+            display: block;
+            text-align: center;
+        }
+    }
+
+    .settings {
+        justify-content: inherit;
+        flex-direction: column;
+    }
+
+    .filters {
+        flex-direction: column-reverse;
+    }
+
+    .filter__container {
+        display: none;
+    }
+
+    .filter__container-mob {
+        display: flex;
+        position: absolute;
+        margin-top: 14px;
+        width: 206px;
+        box-shadow: 0px 4px 67px -12px rgba(0, 0, 0, 0.32);
+        background: rgb(255, 255, 255);
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 48px;
+        padding-right: 48px;    
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 36px;
+
+        &__big {
+            height: 243px !important;
+            grid-column: inherit;
+        }
+
+        &__blocks {
+            font-size: 28px;
+            height: 375px;
+            background-size: cover;
+            grid-column: inherit;
+        }
+    }
+
+    .products-box {
+        grid-column: span 4;
+
+        &__header {
+            margin-bottom: 18px;
+        }
+
+        &__card {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        &__img {
+            display: none;
+        }
+
+        &__info {
+            grid-column: span 3;
+        }
+
+        &__name {
+            font-size: 18px;
+            padding-bottom: 8px;
+        }
+
+        &__text {
+            font-size: 12px;
+            padding-bottom: 15px;
+        }
+
+        &__line {
+            padding-bottom: 18px;
+        }
+
+        &__counter {
+            grid-column: 4 / -1;
+        }
+
+        &__buttons {
+            gap: 20px;
+        }
+    }
+
+    .btn__black {
+        font-size: 12px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+
+    .cart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .order-form {
+        width: 343px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+
+    .products {
+        margin-bottom: 36px;
+    }
+
+    .product {
+        width: 343px;
+
+        &__name {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    .link__text {
+        margin-bottom: 32px;
+    }
+
+    .price {
+        color: rgb(5, 5, 5);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    .footer {
+        &__content {
+            display: flex;
+            flex-direction: column;
+            gap: 70px;
+        }
+
+        &__info {
+            justify-content: center;
+        }
+
+        &__email {
+            align-items: center;
+        }
+    }
+}
