@@ -10,9 +10,6 @@
 
 - HTML5  
 - SCSS / CSS3  
-- JavaScript (Vanilla)  
-- Анимации: AOS / GSAP (если есть)  
-- Библиотеки: Swiper.js, FontAwesome и др.
 
 ---
 
