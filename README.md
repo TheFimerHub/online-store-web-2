@@ -16,14 +16,14 @@
 ## 🚀 Запуск проекта локально
 
 ```bash
-git clone https://github.com/TheFimerHub/project-name.git
-cd project-name
+git clone https://github.com/TheFimerHub/online-store-web-2/
+cd online-store-web-2
 # Открыть index.html в браузере
 ```
 
 ## 📁 Структура проекта
 
-project-name/
+online-store-web-2/
 │
 ├── index.html            # Главная страница
 ├── catalog.html          # Каталог
